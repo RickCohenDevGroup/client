@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { render } from "react-dom";
-import moment from "moment";
+import './style.css';
 
 function App() {
     const [state, setState] = useState("CLICK ME");
